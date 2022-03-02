@@ -17,6 +17,17 @@
       crossorigin="anonymous"
     />
 
+    <style>
+      .container-fluid{
+height: 80vh;
+      }
+
+      .body{
+        overflow: hidden;
+      }
+      
+    </style> 
+
     <title>Frontend Mentor | QR code component</title>
   </head>
 
@@ -32,11 +43,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <main>
-      <div class="container-fluid bg-primary d-flex justify-content-center align-items-center">
-        <div class="row my-3 py-4">        
-            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
-              <img src="images/image-qr-code.png" alt="" class="card-img-top mx-auto d-block border border-5 border-white mt-2 " >
+    <main class="bg-primary">
+      <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="row ">        
+            <div class="card shadow bg-body rounded" style="width: 18rem;">
+              <img src="images/image-qr-code.png" alt="" class="card-img-top mx-auto d-block border border-5 border-white mt-2 rounded" >
 
               <div class="card-body text-center ">
                 <h6 class="card-title fw-bold">
@@ -51,8 +62,8 @@
         </div>
       </div>
     </main>
-
-    <footer class="footer mt-auto py-3 bg-dark">
+    
+    <footer class="mt-auto py-3 bg-dark" style="height: 20vh">
       <div class="container text-white">
         <p>
             Challenge by 
